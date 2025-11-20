@@ -19,3 +19,4 @@ def test_add_to_cart_button_presence(browser):
 
     # Дополнительная проверка, что кнопка видима
     assert add_to_cart_button[0].is_displayed(), "Add to cart button is not visible"
+    assert add_to_cart_button[0].is_enabled(), "Add to cart button is not enabled"
